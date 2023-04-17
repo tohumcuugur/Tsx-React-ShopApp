@@ -21,7 +21,7 @@ export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
     <Card className="h-100">
       <CardImg
         src={imgUrl}
-        height="280px"
+        height="450px"
         style={{
           objectFit: "cover",
         }}
@@ -34,7 +34,7 @@ export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
         <div className="mt-auto">
           {quantity === Number(0) ? (
             <Button className="w-100" onClick={() => increaseCartQuantity(id)}>
-              +Add To Cart
+              Add To Cart
             </Button>
           ) : (
             <div

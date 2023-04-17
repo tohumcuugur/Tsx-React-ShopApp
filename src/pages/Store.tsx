@@ -4,9 +4,9 @@ import storeItems from "..//data/items.json";
 export const Store = () => {
   return (
     <>
-      <div>Store</div>
-      <Row md={2} xs={1} lg={3} className="g-3">
-        {storeItems.map((item) => (
+      <h1>Store</h1>
+      <Row xs={1} md={2} lg={3} className="g-3">
+        {storeItems.storeData.map((item) => (
           <Col key={item.id}>
             <StoreItem {...item} />
           </Col>

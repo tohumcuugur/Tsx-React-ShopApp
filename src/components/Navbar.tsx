@@ -9,13 +9,7 @@ export const Navbar = () => {
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
-            Home
-          </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
             Store
-          </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
-            About
           </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (
@@ -30,11 +24,11 @@ export const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 902.86 902.86"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
